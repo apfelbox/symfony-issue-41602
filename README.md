@@ -13,3 +13,14 @@ To reproduce
 
 1. install
 2. run `php bin/console cache:clear`
+
+
+Error
+-----
+
+```
+In ClassExistenceResource.php line 74:
+                                                                                   
+  [ReflectionException]                                                            
+  Class "Some\Missing\MissingClass" not found while loading "App\Test\TestClass".  
+```
